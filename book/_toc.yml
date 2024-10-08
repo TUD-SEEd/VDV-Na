@@ -7,3 +7,5 @@ parts:
     - file: ICT/Arduino.md
     - file: ICT/Python.md
     - file: ICT/Python practicum.md
+    - file: ICT/IOLab.md
+    - file: ICT/Coach.md
