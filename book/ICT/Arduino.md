@@ -85,6 +85,7 @@ void loop() {
 
 ## Als doel
 **Opdracht 2**
+
 In deze opdracht doen we onderzoek naar de reactiesnelheid van een persoon. Daartoe bouwen we een eenvoudige opstelling met behulp van Arduino. De opstelling bestaat uit een rode en een groene LED’s en een drukknop. De rode LED brandt en gaat op een willekeurig moment uit. Tegelijkertijd gaat de groene LED branden. Je moet dan zo snel mogelijk op het knopje drukken. De tijd die je daarvoor nodig hebt wordt gemeten.
 
 ```{figure} Figures/Arduino4.png
@@ -100,7 +101,8 @@ In deze opdracht doen we onderzoek naar de reactiesnelheid van een persoon. Daar
 7)	Is er een groot (significant) verschil? Hoe zou je dat verschil kunnen kwantificeren?
 8)	Om beter een mogelijke relatie tussen de wachttijd en de reactiesnelheid te onderzoeken, willen we niet alleen de reactiesnelheid printen maar ook de wachttijd. Pas de code aan en gebruik deze code om verder onderzoek te doen…
 
-
+````{admonition} Code
+:class: dropdown
 ```{code-cell} Arduino
 :tags: [hide-input]
 // De pinnen definieeren
@@ -147,3 +149,4 @@ void loop() {
   delay(1000);
 }
 ```
+````
