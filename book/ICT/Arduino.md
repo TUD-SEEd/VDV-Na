@@ -46,8 +46,8 @@ void loop() {
 :width: 70%
 ```
 
-```{code-cell}
-:tags: [hide-input]
+```{toggle}
+
 //pinnen definieren 
 const int ledPinrood = 13;
 const int ledPingroen = 8;
