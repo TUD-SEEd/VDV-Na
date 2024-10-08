@@ -7,7 +7,7 @@ parts:
     - file: ICT/Arduino.md
     - file: ICT/Python.md
       sections:
-      - file: ICT/Python basics.md
-      - file: ICT/Python practicum.md
+      - file: ICT/Python basics.ipynb
+      - file: ICT/Python practicum.ipynb
     - file: ICT/IOLab.md
     - file: ICT/Coach.md
