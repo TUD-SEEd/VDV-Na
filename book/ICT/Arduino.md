@@ -1,7 +1,10 @@
 # Arduino
 ## Als middel
 
-In deze opdracht leer je de basis van werken met Arduino en kun je uiteindelijk lampjes aan en uitschakelen met een knopje.
+In deze opdracht leer je de basis van werken met Arduino en kun je uiteindelijk lampjes aan en uitschakelen met een knopje. Wil je meer weten over Arduino? Er is een [basismodule](Arduino module basis.pdf) en een [gevorderde module](Arduino module gevorderd.pdf).
+
+De opdrachten kun je maken met de gratis software van [Arduino](https://arduino.cc), maar er zijn ook online [emulators](https://wokwi.com/projects/new/arduino-uno).
+
 
 **Opdracht 1**
 1)	Bouw de onderstaande opstelling na. (let op het zwarte kabeltje naar GND en de lange poot van de LED is de + zijde)
