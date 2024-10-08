@@ -10,8 +10,8 @@ De opdrachten kun je maken met de gratis software van [Arduino](https://arduino.
 1)	Bouw de onderstaande opstelling na. (let op het zwarte kabeltje naar GND en de lange poot van de LED is de + zijde)
 2)	Download de [basiscode](basics.ino) en upload deze naar de Arduino.
 
-```{code-cell} Arduino
-:tags: [hide-input]
+```cpp
+
 int ledPinrood = 13;
 
 void setup() {
@@ -40,28 +40,30 @@ void loop() {
 :width: 70%
 ```
 
-6)	Breid nu de schakeling uit door een drukknopje op te nemen, zie schakeling hieronder. Download de [code](drukknop.ino) en upload deze naar de Arduino. 
+6)	Breid nu de schakeling uit door een drukknopje op te nemen, zie schakeling hieronder. Download de [code](./drukknop.ino) en upload deze naar de Arduino. 
 
 ```{figure} Figures/Arduino3.png
 :width: 70%
 ```
 
-```{toggle}
+```cpp
 
-//pinnen definieren 
-const int ledPinrood = 13;
-const int ledPingroen = 8;
+//pinnen definieren
+
+const int ledPinrood = 13;\
+const int ledPingroen = 8;\
 const int drukknop = 2;
 
 //variabelen definieren
-int counter = 0;
-int knop_staat = 0;
+
+int counter = 0;\
+int knop_staat = 0;\
 int knop_vorige_staat = 0;
 
-void setup() {
-  pinMode(ledPinrood, OUTPUT);
-  pinMode(ledPingroen, OUTPUT);
-  pinMode(drukknop, INPUT);
+void setup() {\
+  pinMode(ledPinrood, OUTPUT);\
+  pinMode(ledPingroen, OUTPUT);\
+  pinMode(drukknop, INPUT);\
 }
 
 void loop() {
@@ -77,7 +79,6 @@ void loop() {
   delay(100);
   
 }
-
 ```
 
 7)	Probeer de code te lezen. Druk op de knop en zie wat er met de rode LED gebeurt. Had je dit, op basis van de gelezen code, verwacht?
@@ -93,7 +94,7 @@ In deze opdracht doen we onderzoek naar de reactiesnelheid van een persoon. Daar
 ```
 
 1)	Bouw de bovenstaande opstelling.
-2)	Download de code [reactiesnelheid.ino](reactiesnelheid.ino) is en upload deze naar de Arduino.
+2)	Download de code [reactiesnelheid.ino](./reactiesnelheid.ino) is en upload deze naar de Arduino.
 3)	Doe elk een serie van vijf metingen. 
 4)	Is de reactiesnelheid steeds hetzelfde? Zijn er grote verschillen in een enkele data set?
 5)	Wie heeft de kortste reactietijd? Leg uit hoe je dat vergeleken hebt en hoe zeker je bent dat er een verschil zit in de reactiesnelheid.
@@ -101,10 +102,7 @@ In deze opdracht doen we onderzoek naar de reactiesnelheid van een persoon. Daar
 7)	Is er een groot (significant) verschil? Hoe zou je dat verschil kunnen kwantificeren?
 8)	Om beter een mogelijke relatie tussen de wachttijd en de reactiesnelheid te onderzoeken, willen we niet alleen de reactiesnelheid printen maar ook de wachttijd. Pas de code aan en gebruik deze code om verder onderzoek te doen…
 
-````{admonition} Code
-:class: dropdown
-```{code-cell} Arduino
-:tags: [hide-input]
+```cpp
 // De pinnen definieeren
 const int buttonPin = 2;
 const int ledPingroen = 8;
@@ -149,4 +147,3 @@ void loop() {
   delay(1000);
 }
 ```
-````
