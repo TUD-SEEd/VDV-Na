@@ -11,3 +11,5 @@ parts:
       - file: ICT/Python practicum.ipynb
     - file: ICT/IOLab.md
     - file: ICT/Coach.md
+    - file: ICT/PocketV.md
+    - file: ICT/Picopi.md
